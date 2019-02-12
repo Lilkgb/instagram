@@ -1,0 +1,278 @@
+body {
+  background-color: #fafafa;
+}
+
+
+.main {
+  display: flex;
+  width: 940px;
+  margin: auto;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 0.5px solid lightgray;
+  width: 601px;
+  margin-top: 10%;
+  background-color: white;
+  height: 100%;
+}
+
+.rightSide {
+  display:flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 10%;
+  width: 300px;
+}
+
+.id {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.pictureSize {
+  width: 600px;
+  height: auto;
+  border-top: 0.5 solid lightgray;
+}
+
+.likeComment {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.commentSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.addComment {
+  display: flex;
+  width: 582px;
+  height: 56px;
+  align-self: center;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.addComment input {
+  border: none;
+  width: 600px;
+  border-top: 0.5px solid lightgray;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+}
+
+.userPicture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+
+.stewie p {
+  font-size: 13px;
+  margin-top: -15px;
+  color: gray;
+}
+.stewie {
+  margin-left: 13px;
+  margin-top: 8px;
+}
+
+.stories {
+  height: 250px;
+  margin-top: 5px;
+  border: 0.5px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 10px;
+}
+.watchAllTitle {
+  margin-right: 15px;
+  font-size: 14px;
+}
+.storiesTitle {
+  margin-left: 15px;
+  color: lightgray;
+  font-size: 14px;
+}
+
+.userStory {
+  width: 34px;
+  height: 34px;
+  border-radius: 50px;
+  margin-left: 25px;
+}
+
+.stewieStory p {
+  font-size: 13px;
+  margin-top: -13px;
+  color: gray;
+}
+.stewieStory {
+  margin-left: 13px;
+}
+
+.friendStories {
+  display: flex;
+}
+
+.friendSuggestions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.storyFeed {
+  height: 201px;
+  overflow: auto;
+}
+
+.suggestions {
+  height: 205px;
+  margin-top: 10px;
+  border: 0.5px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.follow {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.stuff {
+  font-size: 12px;
+  color: lightgray;
+  margin-top: 10px;
+}
+
+i {
+   margin-top: 8px;
+   margin-bottom: 5px;
+ }
+
+.iconRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.bookmark {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.feedTitle {
+  display: flex;
+  flex-direction: row;
+}
+
+.feedName {
+  display: flex;
+  margin-top: 10px;
+  font-size: 15px;
+
+}
+
+.pictureName {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.button {
+  display: none;
+}
+
+.comment {
+  /* overflow: hidden; */
+  /* width: 600px; */
+  word-wrap: break-word;
+}
+
+.commentArea {
+  margin-left: 10px;
+}
+
+.inputText {
+  word-wrap: break-word;
+}
+
+input {
+  width: 600px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+
+  height: 77px;
+  width: 100%;
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 18%;
+  margin-left: 50px;
+}
+
+.headerLeft img {
+  height: 50px;
+  width: auto;
+}
+
+.primary {
+  margin-top: 20px;
+}
+
+.headerMiddle{
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 18%;
+  margin-right: 50px;
+}
+
+.searchBar{
+  border: .5px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #ededed;
+  height: 30px;
+  font-size: 13px;
+}
